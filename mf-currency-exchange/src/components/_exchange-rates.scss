@@ -1,0 +1,19 @@
+.exchange-rates {
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  &__updated {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+}

@@ -1,0 +1,10 @@
+.container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+
+  .micro-frontends {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+}
