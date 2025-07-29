@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import CryptoApp from './CryptoApp';
+import DemoApp from './DemoApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<CryptoApp />);
+root.render(<DemoApp />);

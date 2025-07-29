@@ -1,12 +1,14 @@
 import React, { Suspense } from 'react';
+import DemoApp from '../../mf-demo/src/DemoApp';
 
 // const CryptoApp = React.lazy(async () => {
 //   const mod = await import('crypto/CryptoApp');
 //   console.log("MOD:", mod);
 //   return mod;
 // });
-const CryptoApp = React.lazy(() =>
-  import('crypto/CryptoApp').then((mod) => {
+
+const Demo = React.lazy(() =>
+  import('demo/DemoApp').then((mod) => {
     console.log("MOD:", mod);
     return { default: mod.default }; // important
   })
@@ -17,19 +19,13 @@ const CurrencyApp = React.lazy(() =>
     return { default: mod.default }; // important
   })
 );
-// const CurrencyApp = React.lazy(async () => {
-//   const mod = await import('currency/CurrencyApp');
-//   console.log("MOD:", mod);
-//   return mod;
-// });
 
-// const CurrencyApp = React.lazy(() => import('currency/CurrencyApp'));
 
 const App = () => (
   <div>
     <h1>Container</h1>
     <Suspense fallback={<div>Loading CryptoApp...</div>}>
-      <CryptoApp />
+      <DemoApp />
     </Suspense>
     <Suspense fallback={<div>Loading CurrencyApp...</div>}>
       <CurrencyApp />

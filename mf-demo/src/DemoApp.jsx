@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import './components/_crypto-table.scss'; // optional styles
 
-
-const CryptoTable = () => {
+const DemoApp = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -44,4 +44,4 @@ const CryptoTable = () => {
   );
 };
 
-export default CryptoTable;
+export default DemoApp;

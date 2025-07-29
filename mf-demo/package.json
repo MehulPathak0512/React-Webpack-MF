@@ -1,0 +1,27 @@
+{
+ "name": "mf-demo",
+ "version": "1.0.0",
+ "private": true,
+ "scripts": {
+  "start": "webpack serve --mode development --open"
+ },
+ "dependencies": {
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0"
+ },
+ "devDependencies": {
+  "@babel/core": "^7.28.0",
+  "@babel/preset-env": "^7.28.0",
+  "@babel/preset-react": "^7.27.1",
+  "babel-loader": "^9.2.1",
+  "css-loader": "^7.1.2",
+  "html-webpack-plugin": "^5.5.0",
+  "sass": "^1.89.2",
+  "sass-loader": "^16.0.5",
+  "style-loader": "^4.0.0",
+  "webpack": "^5.88.2",
+  "webpack-cli": "^5.1.4",
+  "webpack-dev-server": "^4.15.1",
+  "webpack-merge": "^5.9.0"
+ }
+}

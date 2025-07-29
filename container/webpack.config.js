@@ -37,8 +37,8 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'container',
       remotes: {
-        crypto: 'crypto@http://localhost:3001/remoteEntry.js',
-        currency: 'currency@http://localhost:3002/remoteEntry.js',
+        demo: 'demo@http://localhost:3003/remoteEntry.js',
+        currency: 'currency@http://localhost:3002/remoteEntry.js'
       },
       shared: { react: { singleton: true }, 'react-dom': { singleton: true } },
     }),
