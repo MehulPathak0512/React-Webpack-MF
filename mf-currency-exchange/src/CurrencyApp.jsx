@@ -1,5 +1,5 @@
 import React from 'react';
-import ExchangeRates from './components/ExchangeRates';
+import ExchangeRates from './components/ExchangeRates/ExchangeRates';
 
 const CurrencyApp = () => (
   <div className="exchange-wrapper">
