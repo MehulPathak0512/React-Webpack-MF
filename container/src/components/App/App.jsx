@@ -17,7 +17,7 @@ const CurrencyApp = React.lazy(() =>
 
 const App = () => (
   <div>
-    <h1>Container</h1>
+    <h1>Container App</h1>
     <Suspense fallback={<div>Loading CryptoApp...</div>}>
       <Demo />
     </Suspense>
