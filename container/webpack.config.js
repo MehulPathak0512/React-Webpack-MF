@@ -42,7 +42,7 @@ module.exports = {
       },
       shared: { react: { singleton: true }, 'react-dom': { singleton: true } },
     }),
-    new HtmlWebpackPlugin({ template: './index.html' }),
+    new HtmlWebpackPlugin({ template: './src/index.html' }),
   ],
   resolve: {
     extensions: ['.js', '.jsx'],
