@@ -28,7 +28,7 @@ module.exports = {
       name: 'currency',
       filename: 'remoteEntry.js',
       exposes: {
-        './CurrencyApp': './src/CurrencyApp.jsx',
+        './CurrencyApp': './src/components/CurrencyApp/CurrencyApp.jsx',
         },
       shared: { react: { singleton: true }, 'react-dom': { singleton: true } },
     }),

@@ -41,7 +41,7 @@ module.exports = {
      name: 'demo',
      filename: 'remoteEntry.js',
      exposes: {
-       './DemoApp': './src/DemoApp.jsx',
+       './DemoApp': './src/components/DemoApp/DemoApp.jsx',
      },
      shared: {
        react: { singleton: true, requiredVersion: '^18.0.0' },

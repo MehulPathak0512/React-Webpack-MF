@@ -10,7 +10,7 @@ const Demo = React.lazy(() =>
 const CurrencyApp = React.lazy(() =>
   import('currency/CurrencyApp').then((mod) => {
     console.log("MOD:", mod);
-    return { default: mod.default }; // important
+    return { default: mod.default }; 
   })
 );
 

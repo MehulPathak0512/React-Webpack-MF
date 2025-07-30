@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './components/_crypto-table.scss'; // optional styles
+import './_crypto-table.scss'; 
 
 const DemoApp = () => {
   const [data, setData] = useState([]);
